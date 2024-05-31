@@ -1,0 +1,162 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('ruta/a/tu/fuente/Montserrat.ttf') format('truetype');
+}
+
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    background-color: #f8f9fa;
+    padding: 20px;}
+
+header {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.logo {
+    font-weight: bold;
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-decoration: none;
+    
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+    position: relative;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    transition: all 0.3s;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 15%; /* Forma circular */
+}
+
+nav ul li a:hover {
+    background-color: #929fda; /* Cambia el color de fondo al pasar el cursor */
+    color: #333; /* Cambia el color del texto al pasar el cursor */
+}
+
+
+.logo {
+    width: 200px; /* Ajusta el tamaño del logo según sea necesario */
+}
+
+.content {
+    margin-top: 20px;
+}
+
+.home {
+    width: 50%;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.datos {
+    margin-top: 20px;
+}
+
+p {
+
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+strong {
+    font-weight: bold;
+    color: #5789c3;
+    font-size: 21px;
+
+}
+
+.imagen {
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+img {
+    max-width: 100%;
+    border-radius: 5px;
+
+}
+
+.titulo {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .cartas {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    transition: transform 0.3s;
+  }
+  .carta:hover {
+    transform: translateY(-5px);
+}
+
+
+
+  .carta {
+    width: 250px;
+    height: 400px;
+    margin: 10px;
+    padding: 15px;
+    background-color: #333;
+    border-radius: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .imagen {
+    position: relative;
+    border-radius: px;
+    overflow: hidden;
+  }
+  
+  .imagen img {
+    width: 100%;
+    height: 60%;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+  }
+  
+  .nombre {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border-radius: 0 0 10px 10px;
+    font-size: 1.5em;
+  }
